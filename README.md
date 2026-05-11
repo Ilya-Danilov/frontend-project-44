@@ -3,4 +3,5 @@
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Ilya-Danilov_frontend-project-44&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Ilya-Danilov_frontend-project-44)
 [![asciicast](https://asciinema.org)](https://asciinema.org/a/2YXeqFzVblEsjXsd)
 [![asciicast](https://asciinema.org)](https://asciinema.org/a/DNhT0020fFxmtCEY)
+[![asciicast](https://asciinema.org)](https://asciinema.org/a/s3IxGaOfgQ0uQOxL)
 
