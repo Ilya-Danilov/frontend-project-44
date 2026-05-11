@@ -1,3 +1,3 @@
-import * as even from '../src/brain-games.js'
+import * as even from '../src/game/brain-even.js'
 
 even.evenGame()

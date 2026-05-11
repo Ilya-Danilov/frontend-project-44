@@ -1,25 +1,15 @@
 import readlineSync from 'readline-sync'
-
-const getName = () => {
-  const name = readlineSync.question('May I have your name? ')
-  console.log(`Hello ${name}!`)
-  return name
-}
+import * as mainFun from '../index.js'
 
 const isEven = (num) => {
   return num % 2 === 0
 }
 
-const randomNum = () => {
-  return Math.floor((Math.random() * 100))
-}
-
 export const evenGame = () => {
-  console.log('Welcome to the Brain Games!')
-  const name = getName()
+  const name = mainFun.getName()
   console.log('Answer "yes" if the number is even, otherwise answer "no".')
   for (let i = 0; i < 3; i++) {
-    const num = randomNum()
+    const num = mainFun.randomNum()
     const isNumEven = isEven(num)
     const trueResponse = isNumEven ? 'yes' : 'no'
 
