@@ -30,7 +30,7 @@ export const brainCalc = () => {
     const response = readlineSync.question('Your answer: ')
     if (Number(response) !== answer) {
       console.log(`'${response}' is wrong answer ;(. Correct answer was '${answer}'.`)
-      console.log(`Let's try again, ${name}`)
+      console.log(`Let's try again, ${name}!`)
       return
     }
   }
