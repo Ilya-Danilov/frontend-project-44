@@ -7,6 +7,6 @@ export const getName = () => {
   return name
 }
 
-export const randomNum = () => {
-  return Math.floor((Math.random() * 100))
+export const randomNum = (quantity = 100) => {
+  return Math.floor((Math.random() * quantity))
 }
