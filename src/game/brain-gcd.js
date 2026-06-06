@@ -15,6 +15,7 @@ const gcd = (numOne, numTwo) => {
 
 export const brainGcd = () => {
   const name = mainFun.getName()
+  console.log('Find the greatest common divisor of given numbers.')
   for (let i = 0; i < 3; i++) {
     const numOne = mainFun.randomNum()
     const numTwo = mainFun.randomNum()
