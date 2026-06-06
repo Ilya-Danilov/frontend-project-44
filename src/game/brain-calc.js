@@ -10,11 +10,11 @@ const randomSign = () => {
 export const brainCalc = () => {
   const name = mainFun.getName()
   let answer
+  console.log(`What is the result of the expression?`)
   for (let i = 0; i < 3; i++) {
     const numOne = mainFun.randomNum()
     const numTwo = mainFun.randomNum()
     const sign = randomSign()
-    console.log(`What is the result of the expression?`)
     console.log(`Question: ${numOne} ${sign} ${numTwo}`)
     switch (sign) {
       case '+':
@@ -34,5 +34,5 @@ export const brainCalc = () => {
       return
     }
   }
-  console.log(`Congratulations, ${name}`)
+  console.log(`Congratulations, ${name}!`)
 }
