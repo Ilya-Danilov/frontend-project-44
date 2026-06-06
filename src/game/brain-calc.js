@@ -14,6 +14,7 @@ export const brainCalc = () => {
     const numOne = mainFun.randomNum()
     const numTwo = mainFun.randomNum()
     const sign = randomSign()
+    console.log(`What is the result of the expression?`)
     console.log(`Question: ${numOne} ${sign} ${numTwo}`)
     switch (sign) {
       case '+':
